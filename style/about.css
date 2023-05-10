@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0px;
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: #f0f4f5;
+    
+}
+/* ---Header---- */
+
+.navigation{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+/*-----Navigation menu----- */
+
+.list{
+     display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45px;
+    right: 180px;
+}
+
+.list li {
+ list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.list li a:hover{
+    color: rgb(43, 203, 43);
+    text-decoration: underline;
+}
+/* ---main section--- */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main h2{
+    font-size: 35px;
+    color: #20bc7e;
+    font-weight: 600;
+}
+.main p{
+    font-size: 20px;
+   width: 38vw;
+   text-align: center;
+   margin-top: 25px;
+   color: rgb(7, 7, 7);
+}
+.boxese{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    text-align: center;
+}
+
+.box{
+    border: 2px solid whitesmoke;
+    padding: 25px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px black; 
+}
+.box1{
+    font-weight: 600;
+    font-size: 35px;
+}
+.box1 span{
+    color: #20bc7e;
+}
